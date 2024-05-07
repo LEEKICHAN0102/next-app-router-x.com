@@ -1,6 +1,6 @@
-# Section 0
+# Section 1
 
-- 강의를 듣고 배운 내용과 느낀 점등을 적는 MarkDown 입니다.
+- section.1 강의를 듣고 배운 내용과 느낀 점등을 적는 MarkDown 입니다.
 
 <br>
 
