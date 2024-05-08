@@ -16,17 +16,11 @@
 }
 
 .postForm {
-  margin-top: 101px;
   display: flex;
   padding: 16px 16px 8px;
   border-color: rgb(239, 243, 244);
   border-bottom-width: 1px;
   border-bottom-style: solid;
-}
-@media (prefers-color-scheme: dark) {
-  .postForm {
-      border-color: rgb(47, 51, 54);
-  }
 }
 .postInputSection {
   flex: 1;
@@ -45,7 +39,7 @@
   color: black;
 }
 .postForm textarea::placeholder {
-  font-family: Malgun Gothic;
+  font-family: 'Malgun Gothic', sans-serif;
 }
 .footerButtons {
   display: flex;
@@ -63,10 +57,10 @@
   border-radius: 17px;
   transition-duration: 0.2s;
   transition-property: background-color;
-  background-color: rgb(29, 155, 240, 0.01);
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(29, 155, 240, 0.01);
 }
 .uploadButton:hover {
   background-color: rgb(29, 155, 240, 0.1);
@@ -86,6 +80,7 @@
   font-size: 15px;
   border-radius: 18px;
   background-color: rgb(29, 155, 240);
+  cursor: pointer;
 }
 .actionButton:hover {
   background-color: rgb(26, 140, 216);
